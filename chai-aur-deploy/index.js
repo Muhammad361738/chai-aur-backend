@@ -6,6 +6,7 @@ const port = 3000
 app.get('/', (req, res) => {
     res.send('Hello World!')
 })
+console.log("Hello Backend")
  
 app.get('/github',(req,res) =>{
     res.send("Muhammad361738")
